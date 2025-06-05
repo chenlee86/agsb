@@ -31,7 +31,7 @@ DEBUG_LOG = INSTALL_DIR / "python_debug.log"
 CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的域名
 
 # ====== 全局可配置参数（可直接在此处修改） ======
-USER_NAME = "steamlit"         # 用户名
+USER_NAME = "sub"         # 用户名
 UUID = "8a444ca9-a0a2-470d-a60e-64748869d620"                     # UUID，留空则自动生成
 PORT = 49999                   # Vmess端口，留空或0则自动生成
 DOMAIN = "st.cl999.eu.org"                   # 域名，留空则自动获取
