@@ -34,8 +34,8 @@ CUSTOM_DOMAIN_FILE = INSTALL_DIR / "custom_domain.txt" # 存储最终使用的�
 USER_NAME = "sub"         # 用户名
 UUID = "8a444ca9-a0a2-470d-a60e-64748869d620"                     # UUID，留空则自动生成
 PORT = 49999                   # Vmess端口，留空或0则自动生成
-DOMAIN = "st.cl999.eu.org"                   # 域名，留空则自动获取
-CF_TOKEN = "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiNmIwMzJmODMtOGY4MC00NWUxLThkZjQtNDRlNGYwYzcwNzQ5IiwicyI6Ik5XVXpOVGcwTkRVdFlXSmxNUzAwT0RWaExUazJOR1l0T1RVMll6WmtZVFJtTldVNSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
+DOMAIN = "ste.cl999.eu.org"                   # 域名，留空则自动获取
+CF_TOKEN = "eyJhIjoiNTg0OTAyYjAzNjAzMzM0NDZiNWY4OGNiZGMxYWViMmIiLCJ0IjoiNmIwMzJmODMtOGY4MC00NWUxLThkZjQtNDRlNGYwYzcwNzQ5IiwicyI6IlpXWmlaVFF4WWpFdFptTTBNeTAwWVdNeUxUaGxNVFV0TkRjNVltWmxORGszTmpFMSJ9"                 # Cloudflare Token，留空则用Quick Tunnel
 # =========================================
 
 # 添加命令行参数解析
