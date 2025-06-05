@@ -803,7 +803,7 @@ def get_tunnel_domain():
     return None
 
 # 上传订阅到API服务器
-UPLOAD_API = "https://file.zmkk.fun/api/upload"  # 文件上传API
+UPLOAD_API = "https://file.cl999.eu.org/api/upload"  # 文件上传API
 
 def upload_to_api(subscription_content, user_name):
     """
