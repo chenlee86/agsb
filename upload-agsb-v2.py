@@ -516,6 +516,7 @@ def install(args):
         # 上传到API
         all_links_b64 = base64.b64encode("\n".join(all_links).encode()).decode()
         upload_to_api(all_links_b64, user_name)
+        (INSTALL_DIR / "sub").write_text(all_links_b64 + "\n")   # ← 新增
         # 继续原有的节点文件保存和打印逻辑
         generate_links(final_domain, port_vm_ws, uuid_str)
     else:
